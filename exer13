@@ -1,0 +1,14 @@
+/* Criando um Array de Times de Futebol */
+
+// Declare uma variável `const` para armazenar uma lista de times de futebol brasileiros
+const timesBrasileiros = ['Flamengo', 'Palmeiras', 'São Paulo', 'Corinthians'];
+
+// Acesse e imprima o segundo elemento do array (índice 1)
+console.log(`O segundo time da lista é: ${timesBrasileiros[1]}`);
+
+// Adicione um novo time ao final do array usando o método `push()`
+timesBrasileiros.push('Grêmio');
+
+// Imprima o array completo para verificar a adição do novo item
+console.log('\nLista de times brasileiros atualizada:');
+console.log(timesBrasileiros);
